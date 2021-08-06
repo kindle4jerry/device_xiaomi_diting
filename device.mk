@@ -93,6 +93,11 @@ $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery
 
+# HotwordEnrollement
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/permissions/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
+    $(DEVICE_PATH)/configs/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
+
 # Input
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \
