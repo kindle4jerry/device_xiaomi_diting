@@ -164,6 +164,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
+# Storage
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.fuse.passthrough.enable=true
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
