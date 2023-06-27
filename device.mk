@@ -1,4 +1,4 @@
-#
+#marble
 # Copyright (C) 2023 The Android Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Call the proprietary setup.
-$(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
+$(call inherit-product, vendor/xiaomi/mondrian/mondrian-vendor.mk)
 
 # Enable updating of APEXes.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Project ID Quota.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-DEVICE_PATH := device/xiaomi/marble
+DEVICE_PATH := device/xiaomi/mondrian
 
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 31
@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Marble
+    DT2W-Service-Mondrian
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -88,10 +88,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \
     $(DEVICE_PATH)/configs/idc/uinput-goodix.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-goodix.idc \
-    $(DEVICE_PATH)/configs/idc/uinput-fortsense.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fortsense.idc \
     $(DEVICE_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
-    $(DEVICE_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl \
-    $(DEVICE_PATH)/configs/keylayout/uinput-fortsense.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fortsense.kl
+    $(DEVICE_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl
 
 # MultiGen LRU
 PRODUCT_SYSTEM_PROPERTIES += \
@@ -109,22 +107,22 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayMarble \
+    AospWifiResOverlayMondrian \
     CarrierConfigResCommon \
     FrameworksResCommon \
-    FrameworksResOverlayMarble \
-    SettingsOverlayMarble \
+    FrameworksResOverlayMondrian \
+    SettingsOverlayMondrian \
     SettingsResCommon \
-    SystemUIOverlayMarble \
+    SystemUIOverlayMondrian \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayMarbleChina \
-    AospWifiResOverlayMarbleGlobal \
-    AospWifiResOverlayMarbleIndia \
+    AospWifiResOverlayMondrianChina \
+    AospWifiResOverlayMondrianGlobal \
+    AospWifiResOverlayMondrianIndia \
     SettingsOverlayGlobal \
     SettingsOverlayChina \
     SettingsOverlayIndia \

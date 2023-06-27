@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
--include vendor/xiaomi/marble/BoardConfigVendor.mk
+-include vendor/xiaomi/mondrian/BoardConfigVendor.mk
 
 # A/B
 AB_OTA_UPDATER := true
@@ -46,7 +46,7 @@ SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
 # Bootloader
 PRODUCT_PLATFORM := taro
-TARGET_BOOTLOADER_BOARD_NAME := marble
+TARGET_BOOTLOADER_BOARD_NAME := mondrian
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -55,11 +55,11 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 560
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_marble
-TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_marble
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_mondrian
+TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_mondrian
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
@@ -132,9 +132,9 @@ BOARD_USES_VENDOR_DLKMIMAGE := true
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 
 # Platform
-TARGET_BOARD_PLATFORM := xiaomi_sm7475
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno725
-QCOM_BOARD_PLATFORMS += xiaomi_sm7475
+TARGET_BOARD_PLATFORM := xiaomi_sm8475
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno730
+QCOM_BOARD_PLATFORMS += xiaomi_sm8475
 BOARD_USES_QCOM_HARDWARE := true
 
 # Properties

@@ -11,7 +11,6 @@ softdep smem pre: qcom_hwspinlock
 softdep pinctrl_cape pre: qcom_tlmm_vm_irqchip
 softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-snps-eusb2 phy-msm-ssusb-qmp eud post: ucsi_glink
 softdep cdsp_loader pre: qcom_q6v5_pas
-softdep shared_rail_scmi pre: shared_rail_vendor
 softdep pinctrl_msm pre: qcom-pdc
 softdep pinctrl_waipio pre: qcom_tlmm_vm_irqchip
 softdep msm_drm pre: msm-mmrm
