@@ -39,7 +39,6 @@ static const variant_info_t mondrian_info = {
 
 static const std::vector<variant_info_t> variants = {
     mondrian_global_info,
-    mondrianin_info,
     mondrian_info,
 };
 

@@ -122,13 +122,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AospWifiResOverlayMondrianChina \
     AospWifiResOverlayMondrianGlobal \
-    AospWifiResOverlayMondrianIndia \
     SettingsOverlayGlobal \
     SettingsOverlayChina \
-    SettingsOverlayIndia \
     SettingsProviderOverlayChina \
-    SettingsProviderOverlayGlobal \
-    SettingsProviderOverlayIndia
+    SettingsProviderOverlayGlobal
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
