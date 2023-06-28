@@ -11,7 +11,7 @@
 #include "vendor_init.h"
 
 #define FINGERPRINT_GL "POCO/mondrian_global/mondrian:13/SKQ1.220303.001/V14.0.4.0.TMNMIXM:user/release-keys"
-#define FINGERPRINT_CN "Xiaomi/mondrian/mondrian:13/SKQ1.221022.001/V14.0.19.0.TMNCNXM:user/release-keys" //to be defined
+#define FINGERPRINT_CN "Redmi/mondrian/mondrian:13/SKQ1.220303.001/V14.0.24.0.TMNCNXM:user/release-keys"
 
 static const variant_info_t mondrian_global_info = {
     .hwc_value = "GL",
@@ -26,13 +26,13 @@ static const variant_info_t mondrian_global_info = {
 };
 
 static const variant_info_t mondrian_info = {
-    .hwc_value = "",
+    .hwc_value = "CN",
     .sku_value = "",
 
     .brand = "Xiaomi",
     .device = "mondrian",
     .marketname = "Redmi K60",
-    .model = "",
+    .model = "23013RK75C",
     .mod_device = "mondrian",
     .build_fingerprint = FINGERPRINT_CN,
 };
