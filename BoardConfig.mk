@@ -68,20 +68,22 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_DTB_SIZE := 5102093
-BOARD_DTB_OFFSET :=0x01F00000
+BOARD_DTB_OFFSET := 0x01F00000
 BOARD_KERNEL_OFFSET := 0x00008000
 BOARD_RAMDISK_OFFSET := 0x01000000
 
 BOARD_KERNEL_CMDLINE := \
     video=vfb:640x400,bpp=32,memsize=3072000 \
     disable_dma32=on \
-    bootinfo.fingerprint=$(LINEAGE_VERSION) \
-    mtdoops.fingerprint=$(LINEAGE_VERSION)
+    winfo.fingerprint=$(XPE_VERSION) \
+    bootinfo.fingerprint=$(XPE_VERSION) \
+    mtdoops.fingerprint=$(XPE_VERSION)
 
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
-    androidboot.usbcontroller=a600000.dwc3
+    androidboot.usbcontroller=a600000.dwc3 \
+    androidboot.selinux=permissive
 
 BOARD_KERNEL_IMAGE_NAME := Image
 
@@ -198,3 +200,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compa
 
 # VNDK
 BOARD_VNDK_VERSION := current
+
+# erofs
+BOARD_EROFS_PCLUSTER_SIZE := 262144
