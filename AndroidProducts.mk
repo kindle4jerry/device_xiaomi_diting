@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mondrian.mk
+    $(LOCAL_DIR)/derp_mondrian.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mondrian-eng \
-    lineage_mondrian-userdebug \
-    lineage_mondrian-user
+    derp_mondrian-eng \
+    derp_mondrian-userdebug \
+    derp_mondrian-user
