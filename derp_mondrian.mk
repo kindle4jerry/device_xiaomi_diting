@@ -17,6 +17,11 @@ $(call inherit-product, device/xiaomi/mondrian/device.mk)
 # Rom Stuff
 EXTRA_UDFPS_ANIMATIONS := true
 DERP_BUILDTYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 ## Device identifier
 PRODUCT_DEVICE := mondrian
