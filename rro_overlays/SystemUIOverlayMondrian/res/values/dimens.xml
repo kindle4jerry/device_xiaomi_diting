@@ -9,9 +9,6 @@
     <dimen name="rounded_corner_content_padding">47.0px</dimen>
 
     <!-- The radius of the enrollment progress bar, in dp -->
-    <integer name="config_udfpsEnrollProgressBar" translatable="false">280</integer>
-
-    <item type="dimen" name="physical_fingerprint_sensor_center_screen_location_x">@null</item>
-    <dimen name="physical_fingerprint_sensor_center_screen_location_y">610.0px</dimen>
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">253</integer>
 
 </resources>
