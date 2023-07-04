@@ -28,7 +28,6 @@
         vendor.xiaomi.sensor.citsensorservice@2.0_compatibility_matrix.xml
         vendor.xiaomi.sensor.citsensorservice@1.1_compatibility_matrix.xml
         vendor.xiaomi.sensor.communicate@1.0_compatibility_matrix.xml
-        vendor.xiaomi.hardware.keyboardnanoapp@1.0_compatibility_matrix.xml
         vendor_framework_compatibility_matrix.xml
         vendor_framework_compatibility_matrix.xml
         vendor_framework_compatibility_matrix.xml
@@ -270,10 +269,6 @@
         <version>2.1</version>
         <interface>
             <name>IGoodixFingerprintDaemon</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IGoodixFingerprintDaemonExt</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -1135,13 +1130,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
-        <name>vendor.qti.ims.datachannelservice</name>
-        <interface>
-            <name>IDataChannelService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.ims.factory</name>
         <version>1.0-1</version>
@@ -1357,14 +1345,6 @@
         <version>1.0</version>
         <interface>
             <name>IMiFxTunnel</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.xiaomi.hardware.keyboardnanoapp</name>
-        <version>1.0</version>
-        <interface>
-            <name>IKeyboardNanoapp</name>
             <instance>default</instance>
         </interface>
     </hal>
