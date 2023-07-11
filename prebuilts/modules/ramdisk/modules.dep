@@ -27,6 +27,7 @@
 /lib/modules/qcom-reboot-reason.ko:
 /lib/modules/coresight.ko:
 /lib/modules/mi_cnss_statistic.ko:
+/lib/modules/nt36xxx-spi.ko: /lib/modules/panel_event_notifier.ko
 /lib/modules/goodix_health.ko:
 /lib/modules/qcom_tsens.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/qcom-pdc.ko: /lib/modules/qcom-scm.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
@@ -76,7 +77,6 @@
 /lib/modules/qcom_cpu_vendor_hooks.ko:
 /lib/modules/coresight-csr.ko: /lib/modules/coresight.ko
 /lib/modules/minidump.ko: /lib/modules/smem.ko
-/lib/modules/mi_exception_log.ko:
 /lib/modules/qti_qmi_cdev.ko: /lib/modules/qmi_helpers.ko
 /lib/modules/gplaf_vendor.ko:
 /lib/modules/altmode-glink.ko: /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/qmi_helpers.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
@@ -277,7 +277,7 @@
 /lib/modules/phy-msm-snps-hs.ko: /lib/modules/qcom-scm.ko
 /lib/modules/msm_qmp.ko: /lib/modules/qcom_aoss.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/glink_probe.ko: /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
-/lib/modules/perfmgr.ko: /lib/modules/qcom-dcvs.ko /lib/modules/dcvs_fp.ko /lib/modules/qcom_rpmh.ko /lib/modules/cmd-db.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/minidump.ko /lib/modules/smem.ko
+/lib/modules/perfmgr.ko:
 /lib/modules/repeater-i2c-eusb2.ko: /lib/modules/qti-regmap-debugfs.ko /lib/modules/repeater.ko
 /lib/modules/cnss_nl.ko:
 /lib/modules/phy-generic.ko:

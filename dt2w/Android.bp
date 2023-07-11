@@ -15,7 +15,7 @@
  */
 
 android_app {
-    name: "DT2W-Service-Mondrian",
+    name: "DT2W-Service-Diting",
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
@@ -29,15 +29,15 @@ android_app {
     },
 
     required: [
-        "privapp-permissions_org.lineageos.dt2w.Mondrian",
+        "privapp-permissions_org.lineageos.dt2w.Diting",
         "xiaomi-touch"
     ]
 }
 
 prebuilt_etc {
-    name: "privapp-permissions_org.lineageos.dt2w.Mondrian",
+    name: "privapp-permissions_org.lineageos.dt2w.Diting",
     sub_dir: "permissions",
-    src: "privapp-permissions_org.lineageos.dt2w.Mondrian.xml",
+    src: "privapp-permissions_org.lineageos.dt2w.Diting.xml",
     filename_from_src: true,
 }
 

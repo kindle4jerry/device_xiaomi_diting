@@ -18,5 +18,5 @@
 -->
 <resources>
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string name="def_device_name_simple">POCO F5 Pro</string>
+    <string name="def_device_name_simple">Mi 12T Pro</string>
 </resources>

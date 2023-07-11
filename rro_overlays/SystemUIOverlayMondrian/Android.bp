@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SystemUIOverlayMondrian",
+    name: "SystemUIOverlayDiting",
     product_specific: true,
 }

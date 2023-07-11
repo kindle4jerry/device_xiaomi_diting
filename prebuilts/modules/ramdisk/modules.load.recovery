@@ -237,6 +237,7 @@ atmel_mxt_ts.ko
 focaltech_fts.ko
 synaptics_dsx.ko
 nt36xxx-i2c.ko
+nt36xxx-spi.ko
 pm8941-pwrkey.ko
 qcom-hv-haptics.ko
 goodix_fod.ko
@@ -278,7 +279,6 @@ qce50.ko
 qcedev-mod.ko
 extend_reclaim.ko
 mi_log.ko
-mi_exception_log.ko
 binder_prio.ko
 ipa_fmwk.ko
 usb_bam.ko

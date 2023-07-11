@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_mondrian.mk
+    $(LOCAL_DIR)/derp_diting.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_mondrian-eng \
-    derp_mondrian-userdebug \
-    derp_mondrian-user
+    derp_diting-eng \
+    derp_diting-userdebug \
+    derp_diting-user

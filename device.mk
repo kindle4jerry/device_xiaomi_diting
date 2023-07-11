@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Call the proprietary setup.
-$(call inherit-product, vendor/xiaomi/mondrian/mondrian-vendor.mk)
+$(call inherit-product, vendor/xiaomi/diting/diting-vendor.mk)
 
 # Enable updating of APEXes.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Project ID Quota.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-DEVICE_PATH := device/xiaomi/mondrian
+DEVICE_PATH := device/xiaomi/diting
 
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 31
@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-Mondrian
+    DT2W-Service-diting
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -110,21 +110,21 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayMondrian \
+    AospWifiResOverlayditing \
     CarrierConfigResCommon \
     FrameworksResCommon \
-    FrameworksResOverlayMondrian \
-    SettingsOverlayMondrian \
+    FrameworksResOverlayditing \
+    SettingsOverlayditing \
     SettingsResCommon \
-    SystemUIOverlayMondrian \
+    SystemUIOverlayditing \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayMondrianChina \
-    AospWifiResOverlayMondrianGlobal \
+    AospWifiResOverlayditingChina \
+    AospWifiResOverlayditingGlobal \
     SettingsOverlayGlobal \
     SettingsOverlayChina \
     SettingsProviderOverlayChina \

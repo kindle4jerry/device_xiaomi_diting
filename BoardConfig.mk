@@ -5,7 +5,7 @@
 #
 
 # Inherit from the proprietary version
--include vendor/xiaomi/mondrian/BoardConfigVendor.mk
+-include vendor/xiaomi/diting/BoardConfigVendor.mk
 
 # A/B
 AB_OTA_UPDATER := true
@@ -46,7 +46,7 @@ SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
 # Bootloader
 PRODUCT_PLATFORM := taro
-TARGET_BOOTLOADER_BOARD_NAME := mondrian
+TARGET_BOOTLOADER_BOARD_NAME := diting
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -63,8 +63,8 @@ SOONG_CONFIG_dolby_vision += enabled
 SOONG_CONFIG_dolby_vision_enabled := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_mondrian
-TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_mondrian
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_diting
+TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_diting
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
@@ -125,8 +125,8 @@ BOARD_PARTITION_LIST := $(call to-upper, $(BOARD_QTI_DYNAMIC_PARTITIONS_PARTITIO
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := erofs))
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
-BOARD_PREBUILT_ODMIMAGE := vendor/xiaomi/mondrian/images/odm.img
-BOARD_PREBUILT_VENDORIMAGE := vendor/xiaomi/mondrian/images/vendor.img
+BOARD_PREBUILT_ODMIMAGE := vendor/xiaomi/diting/images/odm.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/xiaomi/diting/images/vendor.img
 
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_PRODUCT := product
