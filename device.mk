@@ -96,6 +96,11 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
     $(DEVICE_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl
 
+# Media
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libmediaplayerservice
+
 # MultiGen LRU
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.device_config.mglru_native.lru_gen_config=all
