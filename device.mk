@@ -63,6 +63,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Display - Graphics
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V1-ndk_platform
+
 # Dtb
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/prebuilts/dtb:dtb.img
