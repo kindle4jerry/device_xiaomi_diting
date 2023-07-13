@@ -148,6 +148,16 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Perf
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0 \
+    libavservices_minijail \
+    vendor.qti.hardware.perf@2.3
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
@@ -162,10 +172,6 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     XiaomiEuicc \
     OpenEUICC
-
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.3
 
 # Rootdir
 PRODUCT_PACKAGES += \
