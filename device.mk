@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0 \
     libavservices_minijail \
+    libtflite \
     vendor.qti.hardware.perf@2.3
 
 PRODUCT_BOOT_JARS += \
