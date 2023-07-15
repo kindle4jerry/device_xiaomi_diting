@@ -6,18 +6,22 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Radius of the software rounded corners at the top of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_top">70px</dimen>
+    <dimen name="rounded_corner_radius_top">90px</dimen>
 
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">70px</dimen>
+    <dimen name="rounded_corner_radius_bottom">90px</dimen>
 
     <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
          calculate the status bar height. -->
-    <dimen name="status_bar_height_default">94px</dimen>
+    <dimen name="status_bar_height_default">88px</dimen>
 
     <!-- Height of the status bar in portrait.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_portrait">94px</dimen>
+    <dimen name="status_bar_height_portrait">88px</dimen>
+
+    <dimen name="system_app_widget_background_radius">16.73dp</dimen>
+    <dimen name="system_app_widget_inner_radius">8.73dp</dimen>
+    <dimen name="notification_min_height">106dp</dimen>
 </resources>
