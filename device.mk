@@ -50,10 +50,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-service-system
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 1440
-TARGET_SCREEN_HEIGHT := 3200
-TARGET_SCREEN_WIDTH := 1440
-
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_HEIGHT := 2712
+TARGET_SCREEN_WIDTH := 1220
 
 # Boot control
 PRODUCT_PACKAGES += \
@@ -70,7 +69,7 @@ PRODUCT_COPY_FILES += \
 
 # DT2W
 PRODUCT_PACKAGES += \
-    DT2W-Service-diting
+    DT2W-Service-Diting
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -110,21 +109,21 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayditing \
+    AospWifiResOverlayDiting \
     CarrierConfigResCommon \
     FrameworksResCommon \
-    FrameworksResOverlayditing \
-    SettingsOverlayditing \
+    FrameworksResOverlayDiting \
+    SettingsOverlayDiting \
     SettingsResCommon \
-    SystemUIOverlayditing \
+    SystemUIOverlayDiting \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
 
 PRODUCT_PACKAGES += \
-    AospWifiResOverlayditingChina \
-    AospWifiResOverlayditingGlobal \
+    AospWifiResOverlayDitingChina \
+    AospWifiResOverlayDitingGlobal \
     SettingsOverlayGlobal \
     SettingsOverlayChina \
     SettingsProviderOverlayChina \
@@ -156,9 +155,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.3
 
 # Rootdir
-PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc \
-    init.qcom.rc
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/etc/init.recovery.qcom.rc:$(TARGET_RECOVERY_ROOT_OUT)/init.recovery.qcom.rc \
+    $(DEVICE_PATH)/rootdir/etc/init.qcom.rc:$(TARGET_ROOT_OUT)/init.qcom.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
