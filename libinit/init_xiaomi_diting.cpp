@@ -13,6 +13,7 @@
 #define FINGERPRINT_GL "Xiaomi/diting/diting:13/SKQ1.220303.001/V14.0.2.0.TLFMIXM:user/release-keys"
 #define FINGERPRINT_CN "Xiaomi/diting/diting:13/SKQ1.220303.001/V14.0.10.0.TLFCNXM:user/release-keys"
 #define FINGERPRINT_JP "Xiaomi/ditingp_jp/diting:12/SKQ1.220303.001/V13.0.2.0.SLFJPXM:user/release-keys"
+#define FINGERPRINT_RU "Xiaomi/ditingp_ru/diting:13/SKQ1.220303.001/V14.0.4.0.TLFRUXM:user/release-keys"
 
 static const variant_info_t diting_global_info = {
     .hwc_value = "GL",
@@ -38,7 +39,6 @@ static const variant_info_t diting_info = {
     .build_fingerprint = FINGERPRINT_CN,
 };
 
-
 static const variant_info_t ditingp_info = {
     .hwc_value = "JP",
     .sku_value = "",
@@ -51,9 +51,22 @@ static const variant_info_t ditingp_info = {
     .build_fingerprint = FINGERPRINT_JP,
 };
 
+static const variant_info_t diting_ru_info = {
+    .hwc_value = "RU",
+    .sku_value = "",
+
+    .brand = "Xiaomi",
+    .device = "diting",
+    .marketname = "Xiaomi 12T Pro",
+    .model = "22081212UG",
+    .mod_device = "ditingp_ru",
+    .build_fingerprint = FINGERPRINT_RU,
+};
+
 static const std::vector<variant_info_t> variants = {
     diting_info,
     diting_global_info,
+    diting_ru_info,
     ditingp_info,
 };
 
