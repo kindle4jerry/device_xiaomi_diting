@@ -80,9 +80,9 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_CMDLINE := \
     video=vfb:640x400,bpp=32,memsize=3072000 \
     disable_dma32=on \
-    winfo.fingerprint=$(XPE_VERSION) \
-    bootinfo.fingerprint=$(XPE_VERSION) \
-    mtdoops.fingerprint=$(XPE_VERSION)
+    winfo.fingerprint=$(DERP_VERSION) \
+    bootinfo.fingerprint=$(DERP_VERSION) \
+    mtdoops.fingerprint=$(DERP_VERSION)
 
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
