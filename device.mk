@@ -124,6 +124,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AospWifiResOverlayDitingChina \
     AospWifiResOverlayDitingGlobal \
+    AospWifiResOverlayDitingJapan \
     SettingsOverlayGlobal \
     SettingsOverlayChina \
     SettingsProviderOverlayChina \
