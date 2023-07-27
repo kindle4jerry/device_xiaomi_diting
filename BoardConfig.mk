@@ -125,8 +125,15 @@ BOARD_PARTITION_LIST := $(call to-upper, $(BOARD_QTI_DYNAMIC_PARTITIONS_PARTITIO
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := erofs))
 $(foreach p, $(BOARD_PARTITION_LIST), $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
+ifeq ($(TARGET_PRODUCT), derp_diting)
+$(warning building Xiaomi 12T Pro compatible)
 BOARD_PREBUILT_ODMIMAGE := vendor/xiaomi/diting/images/odm.img
 BOARD_PREBUILT_VENDORIMAGE := vendor/xiaomi/diting/images/vendor.img
+else
+$(warning building Redmi K50 Ultra compatible)
+BOARD_PREBUILT_ODMIMAGE := vendor/xiaomi/diting/images/ditingcn/odm.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/xiaomi/diting/images/ditingcn/vendor.img
+endif
 
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_PRODUCT := product
