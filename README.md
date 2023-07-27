@@ -1,24 +1,35 @@
-# Device tree for Redmi Note 12 Turbo
+### Unified Device Tree for Xiaomi 12t pro/redmi k50 ultra
 
-Redmi Note 12 Turbo (codenamed _"marble"_) is a high-end, mid-range smartphone from Xiaomi.
+The  Xiaomi 12t pro/redmi k50 ultra (codename "diting") is a flagship smartphone from Xiaomi released in October 2022
 
-It was announced & released on March 2023.
+It is also known as Xiaomi 12t pro (globally) and Redmi k50 ultra (China).
 
-## Known issues
-- SELinux allows NEVERALLOWS, because using sysbta.
+### Device specifications
+| Feature |	Specification |
+| ------------- | ------------- |
+| Chipset | Qualcomm SM8475 Snapdragon 8+ Gen 1 (4 nm) |
+| CPU | Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) |
+| GPU | Adreno 730 |
+| Memory | 8/12 GB LPDDR5 RAM |
+| Shipped Android Version |	12.0 (MIUI 13) |
+| Storage |	128/256 GB UFS 3.1 |
+| SIM | Dual SIM (Nano-SIM, dual stand-by) |
+| Battery |	5000 mAh Li-Po (non-removable), 120w quick charge |
+| Dimensions | 163.1 x 75.9 x 8.6 mm (6.42 x 2.99 x 0.34 in) |
+| Display |	6.67 inch, 1220 x 2712 pixels, AMOLED, Dolby Vision, HDR10+, 120Hz |
+| Camera | 200 MP (main), 8 MP (ultrawide), 2 MP (macro), 20 MP (front) |
+| Fingerprint |	under display, optical |
+| Sensors | accelerometer, gyro, proximity, compass, color spectrum |
 
-## Device specifications
+### please read
+I'm don't own this device for now and I don't have time ,  but if you want personally to create device tree you can use this guides :
+[Gide1 an script auto ](https://github.com/twrpdtgen/twrpdtgen)
 
-|                   Basic | Spec Sheet                                                         |
-| ----------------------: | :----------------------------------------------------------------- |
-|                     SoC | Snapdragon® 7 Gen 2 (SM7475)                                       |
-|                     CPU | Octa-core CPU with 1x Cortex-X2 & 3x Cortex-A710 & 4x Cortex-A510  |
-|                     GPU | Adreno 725                                                         |
-|                  Memory | 8/12/16 GB RAM (LPDDR5)                                            |
-| Shipped Android Version | 13.0 with MIUI 14                                                  |
-|                 Storage | 128/256/512/1024 GB (UFS 3.1)                                      |
-|                 Battery | 5000 mAh, non-removable                                            |
-|                 Display | 1080 x 2400 pixels, 20:9 ratio, 6.67 inches, 30/60/90/120 hz, OLED |
-|                  Camera | 64MP (Primary), 8MP (Ultra-wide), 2MP (Macro)                      |
+[Gide2 English language](https://gist.github.com/mvaisakh/1a45694e33584592e8fae37fe29d757d)
 
-![Redmi Note 12 Turbo](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1679982565.12241762.png)
+[Gide3 Chinese language](https://www.akr-developers.com/d/295)
+
+Createed by : [@snapdragoon](https://t.me/sanpdragoon) on telegram
+
+Good luck. 
+ 
