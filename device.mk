@@ -155,9 +155,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.3
 
 # Rootdir
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/rootdir/etc/init.recovery.qcom.rc:$(TARGET_RECOVERY_ROOT_OUT)/init.recovery.qcom.rc \
-    $(DEVICE_PATH)/rootdir/etc/init.qcom.rc:$(TARGET_ROOT_OUT)/init.qcom.rc
+PRODUCT_PACKAGES += \
+    init.recovery.qcom.rc \
+    init.qcom.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
