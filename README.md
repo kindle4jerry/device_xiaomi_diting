@@ -11,7 +11,7 @@ It is also known as Xiaomi 12t pro (globally) and Redmi k50 ultra (China).
 | CPU | Octa-core (1x3.19 GHz Cortex-X2 & 3x2.75 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510) |
 | GPU | Adreno 730 |
 | Memory | 8/12 GB LPDDR5 RAM |
-| Shipped Android Version |	12.0 (MIUI 13) |
+| Shipped Android Version |	12.0 (MIUI 13) | now 13.0 (MIUI 14)
 | Storage |	128/256 GB UFS 3.1 |
 | SIM | Dual SIM (Nano-SIM, dual stand-by) |
 | Battery |	5000 mAh Li-Po (non-removable), 120w quick charge |
@@ -21,15 +21,9 @@ It is also known as Xiaomi 12t pro (globally) and Redmi k50 ultra (China).
 | Fingerprint |	under display, optical |
 | Sensors | accelerometer, gyro, proximity, compass, color spectrum |
 
-### please read
-I'm don't own this device for now and I don't have time ,  but if you want personally to create device tree you can use this guides :
-[Gide1 an script auto ](https://github.com/twrpdtgen/twrpdtgen)
-
-[Gide2 English language](https://gist.github.com/mvaisakh/1a45694e33584592e8fae37fe29d757d)
-
-[Gide3 Chinese language](https://www.akr-developers.com/d/295)
-
-Createed by : [@snapdragoon](https://t.me/sanpdragoon) on telegram
+# Device Images
+![Redmi K50 Ultra](https://www.incpak.com/wp-content/uploads/2022/08/K50U.jpg)
+![Xiaomi 12T Pro](https://www.eluniversal.com.mx/resizer/BiI33-HQovmTw7w3klcgOe3n8NE=/1100x666/cloudfront-us-east-1.images.arcpublishing.com/eluniversal/SPLQSVBLANFOVARVTFA5LWNB7U.jpg)
 
 Good luck. 
  
