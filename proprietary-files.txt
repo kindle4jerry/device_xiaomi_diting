@@ -1,3 +1,5 @@
+# All blobs are taken from diting missi_phone_global-user-13-TKQ1.220829.002-V14.0.2.0.TLFMIXM-release-keys
+
 # Audio
 system_ext/bin/qxrsplitauxservice
 system_ext/etc/permissions/audiosphere.xml
@@ -54,6 +56,13 @@ system_ext/lib64/libdpmtcm.so
 system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so
 system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
+
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 
 # Media
 system_ext/lib/extractors/libmmparserextractor.so
