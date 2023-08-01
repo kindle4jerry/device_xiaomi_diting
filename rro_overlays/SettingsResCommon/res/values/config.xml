@@ -12,16 +12,11 @@
         <item>Boosted</item>
         <item>Saturated</item>
         <item>Adaptive</item>
-        <item>Reserved and unset: 256</item>
-        <item>Reserved and unset: 257</item>
-        <item>Reserved and unset: 258</item>
-        <item>Reserved and unset: 259</item>
-        <item>Reserved and unset: 260</item>
-        <item>Reserved and unset: 261</item>
-        <item>Reserved and unset: 262</item>
-        <item>Reserved and unset: 263</item>
-        <item>Reserved and unset: 264</item>
-        <item>Reserved and unset: 265</item>
+        <item>Xiaomi Saturated</item>
+        <item>Original</item>
+        <item>Vivid</item>
+        <item>Srgb</item>
+        <item>P3</item>
     </string-array>
 
     <!-- Display settings screen, Color mode options. Must be the same length and order as
@@ -35,13 +30,8 @@
         <item>256</item>
         <item>257</item>
         <item>258</item>
-        <item>259</item>
-        <item>260</item>
-        <item>261</item>
-        <item>262</item>
-        <item>263</item>
-        <item>264</item>
-        <item>265</item>
+        <item>267</item>
+        <item>268</item>
     </integer-array>
 
     <!-- Whether to show min/max refresh rate in display settings -->
