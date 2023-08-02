@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/diting/device.mk)
 PRODUCT_DEVICE := diting
 PRODUCT_NAME := lineage_diting
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Redmi Note 12 Turbo
+PRODUCT_MODEL := Redmi K50 Ultra
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="diting"
