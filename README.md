@@ -1,8 +1,8 @@
-### Unified Device Tree for Xiaomi 12t pro/redmi k50 ultra
+### Unified Device Tree for Xiaomi 12T Pro/Redmi K50 Ultra
 
-The  Xiaomi 12t pro/redmi k50 ultra (codename "diting") is a flagship smartphone from Xiaomi released in October 2022
+The  Xiaomi 12T Pro/Redmi kK50 Ultra (codename "diting") is a flagship smartphone from Xiaomi released in October 2022
 
-It is also known as Xiaomi 12t pro (globally) and Redmi k50 ultra (China).
+It is also known as Xiaomi 12T Pro (globally) and Redmi K50 Ultra (China).
 
 ### Device specifications
 | Feature |	Specification |
