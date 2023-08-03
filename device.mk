@@ -82,6 +82,9 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
 
+# Google apps
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery
