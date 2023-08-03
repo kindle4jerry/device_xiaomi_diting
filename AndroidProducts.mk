@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_diting.mk 
+    $(LOCAL_DIR)/aosp_diting.mk 
 
 COMMON_LUNCH_CHOICES := \
-    lineage_diting-eng \
-    lineage_diting-userdebug \
-    lineage_diting-user 
+    aosp_diting-eng \
+    aosp_diting-userdebug \
+    aosp_diting-user 
