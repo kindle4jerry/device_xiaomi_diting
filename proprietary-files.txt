@@ -37,6 +37,11 @@ system_ext/lib64/libdiag_system.so
 system_ext/lib64/libdiag_system.qti.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 
+# Dolby
+system/lib/libdolbyottcontrol.so
+system/lib/libdovi_omx.so
+system/lib/vendor.dolby.hardware.dms@2.0.so
+
 # DPM
 system_ext/bin/dpmd
 system_ext/bin/tcmd
