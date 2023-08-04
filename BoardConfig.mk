@@ -164,6 +164,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 include device/qcom/sepolicy/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+SYSTEM_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/dolby
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Vendor boot
