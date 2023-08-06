@@ -4,7 +4,7 @@ on property:dev.bootcomplete=1
 on property:dev.bootcomplete=1 && property:persist.sys.diting.dt2w=*
     exec /system/bin/xiaomi-touch 14 ${persist.sys.diting.dt2w}
 
-service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
+service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service_64
     override
     class hal
     user audioserver
