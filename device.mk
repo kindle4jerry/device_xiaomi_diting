@@ -196,7 +196,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
-    hardware/xiaomi 
+    hardware/xiaomi \
+    hardware/gsi
 
 # Storage
 PRODUCT_PROPERTY_OVERRIDES += \
