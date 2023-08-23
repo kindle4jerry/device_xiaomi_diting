@@ -169,10 +169,6 @@ PRODUCT_PACKAGES += \
     libtflite \
     vendor.qti.hardware.perf@2.3
 
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
